@@ -1,0 +1,6 @@
+{
+    "watch": ["src"],
+    "ext": ".ts",
+    "ignore": ["public/*"],
+    "exec": "rimraf ./build && tsc && node ./build/server.js"
+  }
